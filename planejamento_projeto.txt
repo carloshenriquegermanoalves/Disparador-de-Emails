@@ -1,0 +1,8 @@
+O disparador de emails simples em Python tem como objetivo permitir a transferência de informações via email em um script. Para tal, o usuário precisa ter um requisito de rede que é facilmente configurado. Sendo ele:
+
+    Permitir em sua conta Google que fontes, que não sejam os navegadores, acessem sua conta.
+        Para tal, basta ir em sua conta google e clica em 'Gerenciar conta Google' -> 'Segurança' -> 'Permitir acesso por apps menos seguros'
+
+Uma vez feito isso, basta o usuário rodar o programa e informar as informações requisitadas (email do destinatário e senha, email do receptor e semelhantes informações de praxe). Uma vez informado o assunto e a mensagem, o email será enviado para o destinatário informado.
+
+Será perguntado se o usuário deseja enviar um novo email. Enquanto o usuário responder 'Sim', o script será repetido.
